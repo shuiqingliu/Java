@@ -1,4 +1,4 @@
-public class NarrowConversion
+﻿public class NarrowConversion
 {
 	public static void main(String[] args)
 	{
