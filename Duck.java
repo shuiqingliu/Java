@@ -24,7 +24,7 @@ public class Duck{
 		while(i < myDuck.length){
 			myDuck[i].bark();
 			i = i + 1;
-	}
+		}
 	}
 
 	public void bark(){
