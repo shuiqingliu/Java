@@ -7,7 +7,7 @@ class A{
 	}
 }
 class B extends A{
-	public void fun16(){
+	public void fun1(){
 		System.out.println("B ------> public void fun1(){}");
 	}
 	public void fun3(){
