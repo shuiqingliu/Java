@@ -23,7 +23,7 @@ class Person{
 		return "姓名:"+ this.name +  "  年龄:" + this.age;
 	}
 }
-public class ObjectDemo02{
+public class ObjectDemo03{
 	public static void main(String[] args) {
 		Person per1 = new Person("张三",34);
 		Person per2 = new Person("张三",34);
