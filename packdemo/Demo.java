@@ -1,6 +1,6 @@
-package com.shuiqingliu.demo;
+package com.shuiqingliu.demo02;
 public class Demo{
 	public String getInfo(){
-		return "hello world!!!";
+		return "qingliu";
 	}
 }
