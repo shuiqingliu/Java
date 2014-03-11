@@ -18,7 +18,6 @@ public class GenericsDemo12{
 		p2.setKey(new Object());
 		fun(p1);
 		fun(p2);
-	}
 	public static void fun(Point<? super String> temp){
 		System.out.println(temp + "、");
 	}
