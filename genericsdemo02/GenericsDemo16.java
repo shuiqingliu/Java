@@ -87,7 +87,7 @@ class Person<T extends Info>{
 public class GenericsDemo16{
 	public static void main(String[] args){
 		Person<Introduction> p = null;
-		p = new Person<Introduction>(new Contact ("qingliu","man","21"));
+		p = new Person<Introduction>(new Introduction ("qingliu","man",21));
 		System.out.println(p);
 	}
 }
