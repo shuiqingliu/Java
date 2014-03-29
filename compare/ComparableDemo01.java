@@ -28,7 +28,9 @@ class Student implements Comparable<Student>{
 }
 public class ComparableDemo01{
 	public static void main(String[] args){
-		Student stu[] = {new Student("张三",20,90.0f),new Student("李四",22,90.0f),new Student("王五",20,99.0f),new Student("赵六",20,70.0f),new Student("孙七",22,100.0f)};
+		Student stu[] = {new Student("张三",20,90.0f),new Student("李四",22,90.0f),
+		                 new Student("王五",20,99.0f),new Student("赵六",20,70.0f),
+		                 new Student("孙七",22,100.0f)};
 		java.util.Arrays.sort(stu);
 		for(int i =0;i < stu.length;i++){
 			System.out.println(stu[i]);
