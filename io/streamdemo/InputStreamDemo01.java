@@ -12,8 +12,8 @@ public class InputStreamDemo01{
 		//第三步，进行读操作
 		byte b[] = new byte[1024]; 			 //所有内容读到此数组
 		input.read(b);	                     //读取内容
-		System.out.println("字符串为：" + new String(b));  //将字节转化为字符串
 		//第四步，关闭流
 		input.close();
+		System.out.println("字符串为：" + new String(b));  //将字节转化为字符串
 	}
 }
