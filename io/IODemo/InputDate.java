@@ -6,7 +6,7 @@ class InputDate{
 	}
 	public String getString(String info){
 		String temp = null;
-		System.out.println(info);   //打印提示信息
+		System.out.print(info);   //打印提示信息
 		try{
 			temp = buf.readLine();
 		}catch(IOException e ){
