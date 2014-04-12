@@ -25,7 +25,7 @@ public class DataInputStreamDemo{
 				dis.readChar();
 				num = dis.readInt();
 				dis.readChar();
-				System.out.printf("名称：%s;价格：%f;数量:%d\n",name,price,num);
+				System.out.printf("名称：%s;价格：%5.2f;数量:%d\n",name,price,num);
 			}
 		}catch(Exception e){}
 		dis.close();
