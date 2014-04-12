@@ -14,7 +14,6 @@ public class DataOutputStreamDemo{
 			dos.writeChars("\t");
 			dos.writeFloat(price[i]);
 			dos.writeChars("\t");
-			dos.writeChars("\t");
 			dos.writeInt(nums[i]);
 			dos.writeChars("\n");
 		} 
