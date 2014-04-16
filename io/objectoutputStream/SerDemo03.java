@@ -1,11 +1,7 @@
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-import java.io.ObjectOutputStream;
 import java.io.*;
 public class SerDemo03{
 	public static void main(String[] args) throws Exception{
-		ser();
+		dser();
 	}
 	public static void ser() throws Exception{
 		File f = new File("d:" + File.separator + "test.txt");		//定义保存路径
