@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 public class InputDate{
 	private BufferedReader buf = null;
-	public InputDate{
+	public InputDate(){
 		this.buf = new BufferedReader(new InputStreamReader(System.in));
 	}
 	public String getString(String info){
@@ -21,7 +21,7 @@ public class InputDate{
 		String str = null;
 		boolean flag = true;
 		while(flag){
-			str = this.getString();
+			str = this.getString(info);
 			if(str.matches("\\d+")){
 				temp = Integer.parseInt(str);
 				flag = false;
